@@ -46,46 +46,6 @@
 
 <br/>
 
-<!-- GitHub Star link -->
-<p align="center">
-  <a href="https://stars.github.com/profiles/denvercoder1/">
-    <img src="https://github.com/DenverCoder1/DenverCoder1/assets/20955511/ca15be3f-d00b-438e-91f6-fb5568c1f632" alt="GitHub Star 2023"/></a>
-</p>
-
-<details open> 
-  <summary><h2>🌠 Top Sponsors</h2></summary>
-
-  <table>
-    <tr>
-      <th>$10+/month</th>
-      <th>$5+/month</th>
-    </tr>
-    <tr>
-      <!-- $10+/month -->
-      <!-- <td>
-        <div align="center">
-          <a href="https://github.com/username"><img src="https://github.com/username" alt="@username" width="52" /></a>
-          <br />
-          <a align="center" href="https://github.com/username"><b>Full Name</b></a>
-        </b>
-      </td> -->
-      <td>
-        <div align="center">
-          <a href="https://github.com/amandaharlin"><img src="https://github.com/amandaharlin.png" alt="@amandaharlin" width="52" /></a>
-          <br />
-          <a align="center" href="https://github.com/amandaharlin"><b>Amanda Harlin</b></a>
-        </b>
-      </td>
-      <!-- $5+/month -->
-      <td>
-        <a href="https://github.com/typesense"><img src="https://custom-icon-badges.demolab.com/badge/-typesense-D90368?style=for-the-badge&logo=mention" alt="typesense" /></a>
-        <a href="https://github.com/chikuang"><img src="https://custom-icon-badges.demolab.com/badge/-chikuang-6FA5FD?style=for-the-badge&logo=mention" alt="chikuang" /></a>
-      </td>
-    </tr>
-  </table>
-
-  <a href="https://github.com/sponsors/DenverCoder1/"><img alt="More about my sponsorship tiers" title="Sponsorship Tiers" src="https://custom-icon-badges.demolab.com/badge/-More%20About%20My%20Sponsorship%20Tiers-1F222E?style=for-the-badge&logoColor=white&logo=link-external"/></a>
-</details>
 
 <details open> 
   <summary><h2>📘 My Top Open Source Projects</h2></summary>
