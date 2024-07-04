@@ -39,18 +39,14 @@ I'm a dedicated student and creative coder with a penchant for crafting innovati
 
 <summary> 😇 <b>Medium Published articles</b>: </summary>
 <br>
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/0">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/0" alt="Recent Article 0">
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/6">
+  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/0" alt="Recent Article 6">
 </a>
 <br>
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/1">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/1" alt="Recent Article 1">
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/7">
+  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/1" alt="Recent Article 7">
 </a>
-<br>
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/2">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/2" alt="Recent Article 2">
-</a>
-<br>
+
 
 
 </details>
