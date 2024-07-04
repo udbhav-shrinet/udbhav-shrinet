@@ -37,11 +37,21 @@ I'm a dedicated student and creative coder with a penchant for crafting innovati
 
 ![Udbhav's GitHub stats](https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=gruvbox)
 
-<!-- ![GitHub Streak](https://streak-stats.demolab.com?user=ForrestKnight&theme=gruvbox&border_radius=4.5) -->
-### Medium Published Articles 😇
+<summary> 😇 <b>Medium Published articles</b>: </summary>
+<br>
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/0">
+  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/0" alt="Recent Article 0">
+</a>
+<br>
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/1">
+  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/1" alt="Recent Article 1">
+</a>
+<br>
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/2">
+  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/2" alt="Recent Article 2">
+</a>
+<br>
 
-- [OpenAI's Q Dilemma: A Deep Dive into AI's Next Frontier](https://medium.com/blinkk/openais-q-dilemma-a-deep-dive-into-ai-s-next-frontier-bbc36081e4f8)
-- [Blockchain in Banking Sector](https://udiii.medium.com/blockchain-in-banking-sector-d8f86117d093)
 
 </details>
 
