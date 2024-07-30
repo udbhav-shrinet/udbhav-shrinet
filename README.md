@@ -2,7 +2,7 @@
 
 **`Digital Craftsman (Student/Developer/Designer/Researcher)`**
 
-I'm a dedicated student and creative coder with a penchant for crafting innovative solutions in the digital realm. Through my internships in data science, I've honed my skills in building projects from scratch that address real-world challenges head-on. Whether I'm designing intuitive interfaces or diving deep into data analysis, I thrive on bringing ideas to life with code. Beyond coding, I express my creativity through writing on Medium and collaborate closely with a human rights NGO, lending my expertise to enhance their web presence and social media impact.
+I'm a student and creative coder with a penchant for crafting innovative solutions in the digital realm. Through my internships in data science, I've honed my skills in building projects from scratch that address real-world challenges head-on. Whether I'm designing intuitive interfaces or diving deep into data analysis, I thrive on bringing ideas to life with code. Beyond coding, I express my creativity through writing on Medium and collaborate closely with a human rights NGO, lending my expertise to enhance their web presence and social media impact.
 
 ### 🧰 Languages and Tools
 
