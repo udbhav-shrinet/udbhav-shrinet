@@ -29,7 +29,7 @@ I design and build **distributed telemetry pipelines**, **high-throughput data i
 | :--- | :--- | :---: | :---: |
 | **Pac-Fly (Synaptic Cafe)** | Biological Connectome Neural Sim (WebGL / Audio) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Pac-Fly/) | [Inspect](https://github.com/udbhav-shrinet/Pac-Fly) |
 | **Multi-Agent Trading Bot** | Quantitative Macro & Forecast Execution (Python) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Multi-Agent-Trading-Bot/) | [Inspect](https://github.com/udbhav-shrinet/Multi-Agent-Trading-Bot) |
-| **Google Trends Studio** | Multi-Region Search Volume Analytics (Python) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/googletrends/) | [Inspect](https://github.com/udbhav-shrinet/googletrends) |
+| **Google Trends Studio** | Multi-Region Search Volume Analytics (Python) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/trends/) | [Inspect](https://github.com/udbhav-shrinet/trends) |
 | **World Bank Data Fetcher** | Macroeconomic Indicator Explorer (REST / Charts) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/World-Bank-Data-Fetcher/) | [Inspect](https://github.com/udbhav-shrinet/World-Bank-Data-Fetcher) |
 | **Spotify Audio Analytics** | Acoustic Clustering & Mood Profiling (Flask) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/spotify-data-analysis/) | [Inspect](https://github.com/udbhav-shrinet/spotify-data-analysis) |
 | **YouTube Live Telemetry** | Concurrent Viewership & Chat Ingestion (Python) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Youtube_Live_Data_Extractor/) | [Inspect](https://github.com/udbhav-shrinet/Youtube_Live_Data_Extractor) |
