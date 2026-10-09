@@ -2,7 +2,7 @@
 
 # Hi, I'm Udbhav Shrinet 👋
 
-**Data Analyst @ ABP Network · Building AI-driven analytics & automation pipelines**
+**Data Analyst @ ABP Network · Building advanced analytics & automation pipelines**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=udbhav-shrinet&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS)
 
@@ -17,17 +17,17 @@
 
 ### 🧭 About Me
 
-I'm a Data Analyst at **ABP Network**, where I design and ship automated intelligence pipelines that turn raw analytics, web, and social data into decisions editors can act on same-day. My background is Economics (Honours), which shows up in how I approach problems — rigorous, hypothesis-driven, and grounded in real-world impact rather than novelty for its own sake.
+I'm a Data Analyst at **ABP Network**, where I design and ship automated analytics pipelines that turn raw data into decisions editors can act on same-day. My background is Economics (Honours), which shows up in how I approach problems — rigorous, hypothesis-driven, and grounded in real-world impact.
 
-Day to day, I'm gluing together GA4, BigQuery, LLMs, and forecasting models into pipelines that used to be manual. Outside work, I write on Medium, build side projects around multi-agent systems and reinforcement learning, and contribute my web/social media skills to a human rights NGO.
+Day to day, I'm gluing together GA4, BigQuery, and forecasting models into automated reporting pipelines. Outside work, I write on Medium, build side projects around complex system architectures, and contribute my technical skills to a human rights NGO.
 
 ### 🚀 Currently
 
-- 📰 Building **AI-powered competitive intelligence systems** at ABP Network — unifying GA4, Search Console, Google Trends, Reddit, and competitor feeds into daily automated insight reports
+- 📰 Building **competitive intelligence systems** at ABP Network — unifying GA4, Search Console, Google Trends, and competitor feeds into daily automated insight reports
 - 📈 Shipped a **Random Forest page-view forecasting model** (11% MAPE) used for proactive editorial planning
-- 🤖 Exploring **multi-agent architectures** — from LLM-based topic clustering at work to autonomous trading research systems as a side project
+- 🤖 Exploring **automated system architectures** — from topic clustering at work to autonomous research systems as a side project
 - ✍️ Writing about data, tools, and building on [Medium](https://medium.com/@udiii)
-- 🌍 Volunteering web & social media expertise for a human rights NGO
+- 🌍 Volunteering technical expertise for a human rights NGO
 
 ---
 
@@ -40,13 +40,6 @@ Day to day, I'm gluing together GA4, BigQuery, LLMs, and forecasting models into
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Stata](https://img.shields.io/badge/Stata-1A5276?style=for-the-badge)
-
-**AI-Assisted Engineering**
-
-![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
-![OpenAI Codex](https://img.shields.io/badge/OpenAI%20Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
-![CLI Tools](https://img.shields.io/badge/CLI%20Tooling-4D4D4D?style=for-the-badge&logo=gnubash&logoColor=white)
 
 **Cloud, Data & DevOps**
 
@@ -69,13 +62,6 @@ Day to day, I'm gluing together GA4, BigQuery, LLMs, and forecasting models into
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
-**Design**
-
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Framer](https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-
 ---
 
 ### 📌 Featured Projects
@@ -84,9 +70,9 @@ Day to day, I'm gluing together GA4, BigQuery, LLMs, and forecasting models into
 <tr>
 <td width="50%" valign="top">
 
-**[Multi-Agent Trading Bot](https://github.com/udbhav-shrinet/Multi-Agent-Trading-Bot)**
+**[Hierarchical Trading System](https://github.com/udbhav-shrinet/Multi-Agent-Trading-Bot)**
 
-A hierarchical, deterministic paper-trading research system. Specialist "agents" (market intelligence, quant research, portfolio council, execution) hand off through a strict pipeline — research proposes, portfolio risk vetoes, execution submits — with triple-barrier ML labeling, purged walk-forward validation, and VaR/CVaR risk gating.
+A hierarchical, deterministic paper-trading research system. Specialist functional modules (market intelligence, quant research, portfolio council, execution) hand off through a strict pipeline — research proposes, portfolio risk vetoes, execution submits — with triple-barrier labeling, purged walk-forward validation, and VaR/CVaR risk gating.
 
 `Python` `Machine Learning` `Alpaca API` `GitHub Actions`
 
@@ -95,20 +81,13 @@ A hierarchical, deterministic paper-trading research system. Specialist "agents"
 
 **[Pac-Fly](https://github.com/udbhav-shrinet/Pac-Fly)**
 
-A browser-based reinforcement-learning sandbox: a virtual fly learns to play piano melodies key-by-key through a dopamine/punishment reward loop, visualized as a live neural-activity field. Fully client-side, zero dependencies.
+A browser-based interactive sandbox: a virtual entity learns to play piano melodies key-by-key through a reward loop, visualized as a live neural-activity field. Fully client-side, zero dependencies.
 
-`JavaScript` `Reinforcement Learning` `Web Audio API`
+`JavaScript` `Web Audio API`
 
 </td>
 </tr>
 </table>
-
-<div align="center">
-
-[![Multi-Agent Trading Bot](https://github-readme-stats.vercel.app/api/pin/?username=udbhav-shrinet&repo=Multi-Agent-Trading-Bot&theme=tokyonight&hide_border=true)](https://github.com/udbhav-shrinet/Multi-Agent-Trading-Bot)
-[![Pac-Fly](https://github-readme-stats.vercel.app/api/pin/?username=udbhav-shrinet&repo=Pac-Fly&theme=tokyonight&hide_border=true)](https://github.com/udbhav-shrinet/Pac-Fly)
-
-</div>
 
 ---
 
@@ -144,6 +123,6 @@ More on [medium.com/@udiii](https://medium.com/@udiii)
 
 <div align="center">
 
-💬 **Let's talk** data pipelines, AI agents, or anything at the intersection of the two — reach out on [LinkedIn](https://linkedin.com/in/udbhav-shrinet) or [email](mailto:udbhav.singh.shrinet@gmail.com).
+💬 **Let's talk** data pipelines, system architecture, or anything at the intersection of the two — reach out on [LinkedIn](https://linkedin.com/in/udbhav-shrinet) or [email](mailto:udbhav.singh.shrinet@gmail.com).
 
 </div>
