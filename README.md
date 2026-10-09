@@ -1,128 +1,70 @@
+# Hi there, I'm Udbhav Shrinet 👋
+
 <div align="center">
-
-# Hi, I'm Udbhav Shrinet 👋
-
-**Data Analyst @ ABP Network · Building advanced analytics & automation pipelines**
-
-![Profile Views](https://komarev.com/ghpvc/?username=udbhav-shrinet&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/udbhav-shrinet)
-[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://udbhavshrinet.com)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@udiii)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:udbhav.singh.shrinet@gmail.com)
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7c3aed,c084fc&height=200&section=header&text=Udbhav%20Shrinet&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Systems%20Architect%20%7C%20Data%20Pipelines%20%7C%20Algorithmic%20Engineering&descFontSize=18&descAlignY=60" width="100%"/>
 </div>
 
----
-
-### 🧭 About Me
-
-I'm a Data Analyst at **ABP Network**, where I design and ship automated analytics pipelines that turn raw data into decisions editors can act on same-day. My background is Economics (Honours), which shows up in how I approach problems — rigorous, hypothesis-driven, and grounded in real-world impact.
-
-Day to day, I'm gluing together GA4, BigQuery, and forecasting models into automated reporting pipelines. Outside work, I write on Medium, build side projects around complex system architectures, and contribute my technical skills to a human rights NGO.
-
-### 🚀 Currently
-
-- 📰 Building **competitive intelligence systems** at ABP Network — unifying GA4, Search Console, Google Trends, and competitor feeds into daily automated insight reports
-- 📈 Shipped a **Random Forest page-view forecasting model** (11% MAPE) used for proactive editorial planning
-- 🤖 Exploring **automated system architectures** — from topic clustering at work to autonomous research systems as a side project
-- ✍️ Writing about data, tools, and building on [Medium](https://medium.com/@udiii)
-- 🌍 Volunteering technical expertise for a human rights NGO
+<p align="center">
+  <a href="https://udbhav-shrinet.github.io/me/"><img src="https://img.shields.io/badge/🌐_Portfolio-udbhav.dev-purple?style=for-the-badge" alt="Portfolio"/></a>
+  <a href="https://github.com/udbhav-shrinet"><img src="https://img.shields.io/badge/GitHub-100k+_Data_Processed-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <a href="mailto:udbhav.singh.shrinet@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-c084fc?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 
 ---
 
-### 🧰 Tech Stack
+### 👨‍💻 Executive Engineering Profile
 
-**Languages**
+I design and build **distributed telemetry pipelines**, **high-throughput data ingestion engines**, **algorithmic quantitative models**, and **hardware-accelerated scientific simulations**. 
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Stata](https://img.shields.io/badge/Stata-1A5276?style=for-the-badge)
-
-**Cloud, Data & DevOps**
-
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-**Analytics & BI**
-
-![GA4](https://img.shields.io/badge/GA4-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white)
-![Search Console](https://img.shields.io/badge/Search%20Console-458CF5?style=for-the-badge&logo=googlesearchconsole&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Looker Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+- 🚀 **Lead Architect on Sila**: Autonomous workspace runtime and local proxy routing operating environment.
+- 🔬 **Computational Neuroscience**: Author of *Drosophila Synaptic Cafe (Pac-Fly)*, simulating 130,000+ neuron biological connectomes with WebGL and WebAudio sonification.
+- 📈 **Quantitative Systems**: Hierarchical multi-process trading engine with FRED macroeconomic regime scoring and automated Alpaca execution.
+- 🌐 **Data Ingestion Engines**: High-throughput automated scrapers for YouTube Live stream telemetry, World Bank APIs, Google Trends, and Google News XML sitemaps.
 
 ---
 
-### 📌 Featured Projects
+### 🚀 Live Interactive Project Showcase
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[Hierarchical Trading System](https://github.com/udbhav-shrinet/Multi-Agent-Trading-Bot)**
-
-A hierarchical, deterministic paper-trading research system. Specialist functional modules (market intelligence, quant research, portfolio council, execution) hand off through a strict pipeline — research proposes, portfolio risk vetoes, execution submits — with triple-barrier labeling, purged walk-forward validation, and VaR/CVaR risk gating.
-
-`Python` `Machine Learning` `Alpaca API` `GitHub Actions`
-
-</td>
-<td width="50%" valign="top">
-
-**[Pac-Fly](https://github.com/udbhav-shrinet/Pac-Fly)**
-
-A browser-based interactive sandbox: a virtual entity learns to play piano melodies key-by-key through a reward loop, visualized as a live neural-activity field. Fully client-side, zero dependencies.
-
-`JavaScript` `Web Audio API`
-
-</td>
-</tr>
-</table>
+| Project | Domain / Tech Stack | Live Demo | Repository |
+| :--- | :--- | :---: | :---: |
+| **Pac-Fly (Synaptic Cafe)** | Biological Connectome Neural Sim (WebGL / Audio) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Pac-Fly/) | [Inspect](https://github.com/udbhav-shrinet/Pac-Fly) |
+| **Multi-Agent Trading Bot** | Quantitative Macro & Forecast Execution (Python) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Multi-Agent-Trading-Bot/) | [Inspect](https://github.com/udbhav-shrinet/Multi-Agent-Trading-Bot) |
+| **Google Trends Studio** | Multi-Region Search Volume Analytics (Python) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/googletrends/) | [Inspect](https://github.com/udbhav-shrinet/googletrends) |
+| **World Bank Data Fetcher** | Macroeconomic Indicator Explorer (REST / Charts) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/World-Bank-Data-Fetcher/) | [Inspect](https://github.com/udbhav-shrinet/World-Bank-Data-Fetcher) |
+| **Spotify Audio Analytics** | Acoustic Clustering & Mood Profiling (Flask) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/spotify-data-analysis/) | [Inspect](https://github.com/udbhav-shrinet/spotify-data-analysis) |
+| **YouTube Live Telemetry** | Concurrent Viewership & Chat Ingestion (Python) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Youtube_Live_Data_Extractor/) | [Inspect](https://github.com/udbhav-shrinet/Youtube_Live_Data_Extractor) |
+| **News Sitemap Velocity** | Google News XML Editorial Analysis (JavaScript) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Sitemap-News-Web-Analysis/) | [Inspect](https://github.com/udbhav-shrinet/Sitemap-News-Web-Analysis) |
+| **Timeline Visualizer** | Chronological Milestone Synthesis (Vanilla JS) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/timeline/) | [Inspect](https://github.com/udbhav-shrinet/timeline) |
+| **YouTube Auto Uploader** | Video Queue Manager & Scheduled Cron Daemon | [🚀 Launch Demo](https://udbhav-shrinet.github.io/youtube-auto-uploader/) | [Inspect](https://github.com/udbhav-shrinet/youtube-auto-uploader) |
+| **Shorts & Reels Publisher**| 9:16 Vertical Video Validation & Scheduling | [🚀 Launch Demo](https://udbhav-shrinet.github.io/youtube-reel-uploader/) | [Inspect](https://github.com/udbhav-shrinet/youtube-reel-uploader) |
+| **Spotify JS Extractor** | Playlist Audio Feature Radar Profiler (Node.js) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/spotify-js-data-extraction/) | [Inspect](https://github.com/udbhav-shrinet/spotify-js-data-extraction) |
+| **Sitemap Metadata Studio** | Sitemaps 0.9 XML Parser & Columnar Exporter | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Sitemap-Extractor/) | [Inspect](https://github.com/udbhav-shrinet/Sitemap-Extractor) |
+| **Developer Portfolio** | Personal Showcase & Interactive Grid (Web) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/me/) | [Inspect](https://github.com/udbhav-shrinet/me) |
 
 ---
 
-### 📊 GitHub Stats
+### 🛠️ Core Technical Arsenal
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=udbhav-shrinet&theme=tokyonight&hide_border=true" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udbhav-shrinet&layout=compact&theme=tokyonight&hide_border=true" width="45%" />
-
-</div>
-
----
-
-### ✍️ Latest Writing
-
-<div align="center">
-
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/0">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/0" alt="Latest Medium Article" style="max-width: 100%;">
-</a>
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/1">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@udiii/1" alt="Second Latest Medium Article" style="max-width: 100%;">
-</a>
-
-More on [medium.com/@udiii](https://medium.com/@udiii)
+| Area | Technologies & Frameworks |
+| :--- | :--- |
+| **Languages** | `Python`, `JavaScript (ES6+)`, `TypeScript`, `Node.js`, `SQL`, `HTML5/CSS3`, `Google Apps Script` |
+| **Data & Analytics** | `Pandas`, `NumPy`, `Statsmodels`, `Chart.js`, `Plotly`, `PyTrends`, `Spotipy`, `ETL Pipelines` |
+| **Systems & Cloud** | `Docker`, `Git`, `Vercel`, `Netlify`, `REST APIs`, `OAuth2`, `Linux/Bash`, `WebSocket Telemetry` |
+| **Frontend & Graphics** | `WebGL`, `WebAudio API`, `Canvas 2D`, `TailwindCSS`, `Responsive UI/UX`, `Jinja2` |
 
 </div>
 
 ---
 
 <div align="center">
-
-💬 **Let's talk** data pipelines, system architecture, or anything at the intersection of the two — reach out on [LinkedIn](https://linkedin.com/in/udbhav-shrinet) or [email](mailto:udbhav.singh.shrinet@gmail.com).
-
+  <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10" alt="GitHub Stats" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udbhav-shrinet&layout=compact&theme=radical&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0a0c10" alt="Top Languages" width="48%"/>
 </div>
+
+---
+
+<p align="center">
+  <i>Autonomous Engineering • High Throughput • Deterministic Systems</i>
+</p>
