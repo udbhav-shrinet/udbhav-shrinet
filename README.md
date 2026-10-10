@@ -27,6 +27,7 @@ I design and build **distributed telemetry pipelines**, **high-throughput data i
 
 | Project | Domain / Tech Stack | Live Demo | Repository |
 | :--- | :--- | :---: | :---: |
+| **ds-agent-playbook** | Autonomous ML & DS Agent Recipes (Polars / DuckDB) | [⚡ Quickstart](https://github.com/udbhav-shrinet/ds-agent-playbook#quickstart) | [Inspect](https://github.com/udbhav-shrinet/ds-agent-playbook) |
 | **Pac-Fly (Synaptic Cafe)** | Biological Connectome Neural Sim (WebGL / Audio) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Pac-Fly/) | [Inspect](https://github.com/udbhav-shrinet/Pac-Fly) |
 | **Multi-Agent Trading Bot** | Quantitative Macro & Forecast Execution (Python) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/Multi-Agent-Trading-Bot/) | [Inspect](https://github.com/udbhav-shrinet/Multi-Agent-Trading-Bot) |
 | **Google Trends Studio** | Multi-Region Search Volume Analytics (Python) | [🚀 Launch Demo](https://udbhav-shrinet.github.io/trends/) | [Inspect](https://github.com/udbhav-shrinet/trends) |
@@ -49,9 +50,9 @@ I design and build **distributed telemetry pipelines**, **high-throughput data i
 
 | Area | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages** | `Python`, `JavaScript (ES6+)`, `TypeScript`, `Node.js`, `SQL`, `HTML5/CSS3`, `Google Apps Script` |
-| **Data & Analytics** | `Pandas`, `NumPy`, `Statsmodels`, `Chart.js`, `Plotly`, `PyTrends`, `Spotipy`, `ETL Pipelines` |
-| **Systems & Cloud** | `Docker`, `Git`, `Vercel`, `Netlify`, `REST APIs`, `OAuth2`, `Linux/Bash`, `WebSocket Telemetry` |
+| **Languages** | `Python`, `JavaScript (ES6+)`, `TypeScript`, `Node.js`, `SQL`, `HTML5/CSS3` |
+| **Data & ML Engines**| `Polars`, `DuckDB`, `PyTorch`, `Pandas`, `NumPy`, `Statsmodels`, `Pydantic` |
+| **Systems & Cloud** | `Docker`, `Git`, `Vercel`, `Netlify`, `REST APIs`, `OAuth2`, `Linux/Bash` |
 | **Frontend & Graphics** | `WebGL`, `WebAudio API`, `Canvas 2D`, `TailwindCSS`, `Responsive UI/UX`, `Jinja2` |
 
 </div>
