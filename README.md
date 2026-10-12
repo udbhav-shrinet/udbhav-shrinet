@@ -55,65 +55,60 @@ I'm a data person who likes building things end to end: the pipeline, the model,
 
 ---
 
-## 🧪 More Things I've Built
+## 🛠️ Tech Stack
 
-| Project | What it does | |
-| :--- | :--- | :---: |
-| **[ds-agent-playbook](https://github.com/udbhav-shrinet/ds-agent-playbook)** | Recipes for autonomous ML and data-science agents on Polars and DuckDB | [Quickstart](https://github.com/udbhav-shrinet/ds-agent-playbook#quickstart) |
-| **[YouTube Live Data Extractor](https://github.com/udbhav-shrinet/Youtube_Live_Data_Extractor)** | Concurrent viewership and live chat ingestion | [Demo](https://udbhav-shrinet.github.io/Youtube_Live_Data_Extractor/) |
-| **[News Sitemap Analysis](https://github.com/udbhav-shrinet/Sitemap-News-Web-Analysis)** | Editorial velocity analysis from Google News sitemaps | [Demo](https://udbhav-shrinet.github.io/Sitemap-News-Web-Analysis/) |
-| **[World Bank Data Fetcher](https://github.com/udbhav-shrinet/World-Bank-Data-Fetcher)** | Macro indicator explorer with live charts | [Demo](https://udbhav-shrinet.github.io/World-Bank-Data-Fetcher/) |
-| **[Spotify Audio Analytics](https://github.com/udbhav-shrinet/spotify-data-analysis)** | Acoustic clustering and mood profiling | [Demo](https://udbhav-shrinet.github.io/spotify-data-analysis/) |
-| **[YouTube Auto Uploader](https://github.com/udbhav-shrinet/youtube-auto-uploader)** | Upload queue manager with a scheduled daemon | [Demo](https://udbhav-shrinet.github.io/youtube-auto-uploader/) |
-| **[Sitemap Extractor](https://github.com/udbhav-shrinet/Sitemap-Extractor)** | Sitemap XML parser with columnar export | [Demo](https://udbhav-shrinet.github.io/Sitemap-Extractor/) |
-| **[Timeline Visualizer](https://github.com/udbhav-shrinet/timeline)** | Chronological milestone visualisation in vanilla JS | [Demo](https://udbhav-shrinet.github.io/timeline/) |
+**Languages & Core Web**
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=databricks&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash_/_Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
 
-## 🛠️ Tech I Work With
+**Data Science & Machine Learning**
 
-<div align="center">
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
-<img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,express,html,css,tailwind,docker,git,linux,bash,vercel,netlify,gcp&perline=8" alt="Tech stack"/>
+**Agentic AI & Developer Tooling**
 
-<br/><br/>
+![Agentic Workflows](https://img.shields.io/badge/Agentic_Workflows_&_Tool_Use-7c3aed?style=for-the-badge)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenClaw](https://img.shields.io/badge/OpenClaw-1f2937?style=for-the-badge)
+![Hermes Agent](https://img.shields.io/badge/Hermes_Agent_(Nous_Research)-1f2937?style=for-the-badge)
+![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-<img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white"/>
-<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white"/>
+**Databases**
 
-</div>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Cloud Platforms & Infrastructure**
+
+![GCP](https://img.shields.io/badge/Google_Cloud_Platform-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon_Web_Services-232F3E?style=for-the-badge&logo=icloud&logoColor=white)
+
+**Deployment & Version Control**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ---
 
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10" alt="GitHub Stats" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udbhav-shrinet&layout=compact&theme=radical&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0a0c10" alt="Top Languages" width="49%"/>
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=udbhav-shrinet&theme=radical&hide_border=true&background=0a0c10&ring=c084fc&fire=c084fc&currStreakLabel=c084fc" alt="Streak" width="60%"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=udbhav-shrinet&bg_color=0a0c10&color=94a3b8&line=c084fc&point=ffffff&area=true&area_color=7c3aed&hide_border=true" alt="Contribution graph" width="100%"/>
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/udbhav-shrinet/udbhav-shrinet/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/udbhav-shrinet/udbhav-shrinet/output/github-contribution-grid-snake.svg"/>
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/udbhav-shrinet/udbhav-shrinet/output/github-contribution-grid-snake-dark.svg"/>
-  </picture>
+  <img src="./github-isocalendar.svg" alt="Contribution calendar" width="100%"/>
+  <br/><br/>
+  <img src="./github-metrics.svg" alt="GitHub metrics" width="100%"/>
 </div>
 
 ---
