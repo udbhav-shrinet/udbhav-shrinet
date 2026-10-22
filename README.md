@@ -192,8 +192,6 @@ Contributions to public projects I don't own. Everything below is generated from
   <a href="https://github.com/udbhav-shrinet">
     <img src="https://streak-stats.demolab.com?user=udbhav-shrinet&theme=radical&hide_border=true&background=0d1117&ring=c084fc&fire=38bdf8&currStreakLabel=c084fc&sideLabels=94a3b8&currStreakNum=ffffff&sideNums=ffffff&dates=64748b" width="70%" alt="Contribution streak"/>
   </a>
-  <br/><br/>
-  <img src="./github-isocalendar.svg" alt="Contribution calendar" width="100%"/>
 </div>
 
 ---
