@@ -81,7 +81,41 @@ Contributions to public projects I don't own. Everything below is generated from
 </div>
 
 <!-- OSS:START -->
-_Contributions load here after the first workflow run._
+#### Merged pull requests
+
+| Project | Stars | Pull request | Merged |
+|---|---|---|---|
+| [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars) | ⭐ 1.1k | [Add ds-agent-playbook to Tools Built with Polars](https://github.com/ddotta/awesome-polars/pull/643) (#643) | 2026-10-12 |
+| [davidgasquez/awesome-duckdb](https://github.com/davidgasquez/awesome-duckdb) | ⭐ 2.5k | [Add ds-agent-playbook to Libraries Powered by DuckDB](https://github.com/davidgasquez/awesome-duckdb/pull/372) (#372) | 2026-10-12 |
+| [vardhancodes/Multithreading](https://github.com/vardhancodes/Multithreading) | ⭐ 0 | [feat: professional repository overhaul with comprehensive Java concurrency curriculum, CI, tests, and documentation](https://github.com/vardhancodes/Multithreading/pull/1) (#1) | 2026-10-09 |
+
+#### In progress
+
+| Project | Stars | Pull request | Opened |
+|---|---|---|---|
+| [google-research/timesfm](https://github.com/google-research/timesfm) | ⭐ 34.7k | [fix(deps): split jax[cuda] into cpu and cuda extras to support CPU-only installs (#443)](https://github.com/google-research/timesfm/pull/539) (#539) | 2026-10-13 |
+| [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | ⭐ 11.7k | [docs: uncap scikit-learn and huggingface_hub in docs/requirements.txt](https://github.com/cleanlab/cleanlab/pull/1345) (#1345) | 2026-10-13 |
+| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | ⭐ 19k | [fix(litellm): omit default temperature to prevent failures on reasoning models](https://github.com/confident-ai/deepeval/pull/3431) (#3431) | 2026-10-09 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 61.8k | [fix(utils): align get_formatted_prompt call_type Literal with CallTypesLiteral](https://github.com/BerriAI/litellm/pull/46298) (#46298) | 2026-10-13 |
+| [567-labs/instructor](https://github.com/567-labs/instructor) | ⭐ 14k | [fix(usage): guard openai imports in usage helpers when openai is not installed](https://github.com/567-labs/instructor/pull/2796) (#2796) | 2026-10-13 |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | ⭐ 191.6k | [fix(links): support mailto: and tel: links in HTML and DOCX conversion](https://github.com/microsoft/markitdown/pull/2696) (#2696) | 2026-10-13 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tools): support plain Python type annotations in Tool.from_gradio](https://github.com/huggingface/smolagents/pull/2984) (#2984) | 2026-10-13 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(serialization): support all numpy scalar types via generic inspection (#2961)](https://github.com/huggingface/smolagents/pull/2972) (#2972) | 2026-10-12 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tool_validation): handle tuple and list aliases in with statements (#2942)](https://github.com/huggingface/smolagents/pull/2958) (#2958) | 2026-10-11 |
+| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | ⭐ 4.5k | [fix(polars): coerce=True strips whitespace before casting to numeric to match pandas](https://github.com/unionai-oss/pandera/pull/2558) (#2558) | 2026-10-09 |
+
+#### Issues reported
+
+| Project | Issue | Status | Opened |
+|---|---|---|---|
+| [tgraha09/Spotify-Music-Tracker](https://github.com/tgraha09/Spotify-Music-Tracker) | [Localhost error](https://github.com/tgraha09/Spotify-Music-Tracker/issues/1) (#1) | Resolved | 2024-08-19 |
+
+#### Kind words from maintainers
+
+- **[@davidgasquez](https://github.com/davidgasquez/awesome-duckdb/pull/372#issuecomment-6119952407)** on PR [davidgasquez/awesome-duckdb#372](https://github.com/davidgasquez/awesome-duckdb/pull/372#issuecomment-6119952407): “Thanks!”
+
+<sub>Auto-generated from public GitHub activity · updated 2026-10-22 UTC</sub>
+
 <!-- OSS:END -->
 
 ---
