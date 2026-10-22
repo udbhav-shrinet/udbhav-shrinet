@@ -102,29 +102,27 @@ I'm a data person who likes building things end to end: the pipeline, the model,
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ---
-
 ## 📊 GitHub Activity
 
 <div align="center">
   <img src="./github-isocalendar.svg" alt="Contribution calendar" width="100%"/>
   <br/><br/>
   
-  <!-- GitHub Stats with Private Commits & Total History Enabled -->
+  <!-- GitHub Stats Card (Fixed timeout error by omitting heavy all-commit scans) -->
   <a href="https://github.com/udbhav-shrinet">
-    <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10&count_private=true&include_all_commits=true&cache_seconds=3600" alt="Udbhav's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10&count_private=true" alt="Udbhav's GitHub Stats" />
   </a>
 
   <br/><br/>
 
   <!-- Most Used Languages Card -->
   <a href="https://github.com/udbhav-shrinet">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udbhav-shrinet&layout=compact&theme=radical&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0a0c10&count_private=true&cache_seconds=3600" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udbhav-shrinet&layout=compact&theme=radical&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0a0c10&count_private=true" alt="Top Languages" />
   </a>
 
   <br/><br/>
   <img src="./github-metrics.svg" alt="GitHub metrics" width="100%"/>
 </div>
-
 ---
 
 <div align="center">
