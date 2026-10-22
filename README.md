@@ -105,23 +105,39 @@ I'm a data person who likes building things end to end: the pipeline, the model,
 ## 📊 GitHub Activity
 
 <div align="center">
+
+  <!-- 1. Rank, PRs, Merged PRs, Reviews & Public Repo Contributions + Total Contributions (Private + Public) -->
+  <a href="https://github.com/udbhav-shrinet">
+    <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&hide=commits&show=reviews,prs_merged,prs_merged_percentage&count_private=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10&ring_color=c084fc" height="195" alt="GitHub Rank & PR Stats" />
+  </a>
+  <a href="https://github.com/udbhav-shrinet">
+    <img src="https://streak-stats.demolab.com?user=udbhav-shrinet&theme=radical&hide_border=true&background=0a0c10&ring=c084fc&fire=38bdf8&currStreakLabel=c084fc&sideLabels=94a3b8&currStreakNum=ffffff&sideNums=ffffff&dates=64748b" height="195" alt="Total Contributions & Streak" />
+  </a>
+
+  <br/><br/>
+
+  <!-- 2. All-Time Profile Summary & Top Languages Breakdown -->
+  <a href="https://github.com/udbhav-shrinet">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=udbhav-shrinet&theme=radical" height="180" alt="Profile Contribution Summary" />
+  </a>
+  <a href="https://github.com/udbhav-shrinet">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udbhav-shrinet&layout=compact&langs_count=8&theme=radical&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0a0c10" height="180" alt="Top Languages" />
+  </a>
+
+  <br/><br/>
+
+  <!-- 3. Real-Time Contribution Activity Graph (Commits, PRs, Issues, Code Reviews) -->
+  <a href="https://github.com/udbhav-shrinet">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=udbhav-shrinet&bg_color=0a0c10&color=c084fc&line=38bdf8&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
+  </a>
+
+  <br/><br/>
+
+  <!-- 4. Your Local Action-Generated Isometric Calendar & Detailed Metrics (2,256+ Commits) -->
   <img src="./github-isocalendar.svg" alt="Contribution calendar" width="100%"/>
   <br/><br/>
-  
-  <!-- GitHub Stats Card configured with private + all-time history -->
-  <a href="https://github.com/udbhav-shrinet">
-    <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10&count_private=true&include_all_commits=true" alt="Udbhav's GitHub Stats" />
-  </a>
-
-  <br/><br/>
-
-  <!-- Most Used Languages Card -->
-  <a href="https://github.com/udbhav-shrinet">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udbhav-shrinet&layout=compact&theme=radical&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0a0c10&count_private=true" alt="Top Languages" />
-  </a>
-
-  <br/><br/>
   <img src="./github-metrics.svg" alt="GitHub metrics" width="100%"/>
+
 </div>
 ---
 
