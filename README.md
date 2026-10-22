@@ -69,7 +69,7 @@ I build data-intensive systems end to end: ingestion pipelines, quantitative mod
 
 ## Open Source
 
-Contributions to other people's projects. Counts below are pulled live from GitHub.
+Contributions to public projects I don't own. Everything below is generated from GitHub and refreshed automatically.
 
 <div align="center">
   <a href="https://github.com/udbhav-shrinet">
@@ -80,25 +80,9 @@ Contributions to other people's projects. Counts below are pulled live from GitH
   </a>
 </div>
 
-<!--
-  Hand-curated list of merged PRs / resolved issues. Uncomment and fill in
-  once you have entries; delete any row you can't back up with a link.
-
-| Project | Contribution | Status |
-|---|---|---|
-| [owner/repo](https://github.com/owner/repo) | [#123 – short description of the fix](https://github.com/owner/repo/pull/123) | Merged |
-| [owner/repo](https://github.com/owner/repo) | [#456 – issue you diagnosed or resolved](https://github.com/owner/repo/issues/456) | Closed |
--->
-
-<!--
-  Optional: auto-generated "notable contributions" block.
-  Add `plugin_notable: yes` to your lowlighter/metrics workflow, output to
-  github-notable.svg, then uncomment:
-
-<div align="center">
-  <img src="./github-notable.svg" alt="Notable contributions" width="100%"/>
-</div>
--->
+<!-- OSS:START -->
+_Contributions load here after the first workflow run._
+<!-- OSS:END -->
 
 ---
 
