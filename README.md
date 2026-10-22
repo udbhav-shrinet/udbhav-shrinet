@@ -108,9 +108,9 @@ I'm a data person who likes building things end to end: the pipeline, the model,
   <img src="./github-isocalendar.svg" alt="Contribution calendar" width="100%"/>
   <br/><br/>
   
-  <!-- GitHub Stats Card (Fixed timeout error by omitting heavy all-commit scans) -->
+  <!-- GitHub Stats Card configured with private + all-time history -->
   <a href="https://github.com/udbhav-shrinet">
-    <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10&count_private=true" alt="Udbhav's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10&count_private=true&include_all_commits=true" alt="Udbhav's GitHub Stats" />
   </a>
 
   <br/><br/>
