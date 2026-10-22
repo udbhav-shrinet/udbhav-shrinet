@@ -4,8 +4,8 @@
 Only PUBLIC repos you don't own are considered:
   * merged pull requests   (with link + repo stars)
   * open / in-review PRs
+  * discussions / participations / mentions in public issues and PRs
   * issues you reported    (open + resolved)
-  * thanks left by others on your PRs / issues
 """
 import os, re, sys, json, time, urllib.request, urllib.parse
 from pathlib import Path
@@ -14,8 +14,8 @@ USER = os.environ.get("GH_USER", "udbhav-shrinet")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 README = Path(os.environ.get("README_PATH", "README.md"))
 START, END = "<!-- OSS:START -->", "<!-- OSS:END -->"
-LIMIT = int(os.environ.get("OSS_LIMIT", "10"))
-THANKS = re.compile(r"\b(thanks?|thank you|thx|ty|much appreciated|appreciate(d)?|great (catch|work|fix|job)|nice (catch|work|fix))\b|🙏|❤️|🎉|🙌", re.I)
+LIMIT = int(os.environ.get("OSS_LIMIT", "12"))
+EXCLUDE_REPOS = {"vardhancodes/Multithreading", "Danyw24/mcp-radar", "morluto/rea"}
 
 _stars = {}
 
@@ -42,7 +42,7 @@ def api(url, params=None):
 def search(q):
     data = api("https://api.github.com/search/issues",
                {"q": q, "sort": "updated", "order": "desc", "per_page": 50})
-    time.sleep(2)  # stay well under the search rate limit
+    time.sleep(1.5)  # stay well under search rate limit
     return (data or {}).get("items", [])
 
 
@@ -71,28 +71,6 @@ def date(s):
     return (s or "")[:10]
 
 
-def thanks_for(item):
-    """Comments from other humans on this PR/issue that read as thanks."""
-    if not item.get("comments"):
-        return []
-    comments = api(item["comments_url"], {"per_page": 100}) or []
-    out = []
-    for c in comments:
-        who = c["user"]["login"]
-        if who.lower() == USER.lower() or c["user"]["type"] == "Bot" or who.endswith("[bot]"):
-            continue
-        body = c.get("body") or ""
-        if THANKS.search(body):
-            snippet = re.sub(r"\s+", " ", re.sub(r"```.*?```", "", body, flags=re.S)).strip()
-            out.append({
-                "who": who, "url": c["html_url"], "repo": repo_of(item),
-                "title": item["title"], "number": item["number"],
-                "kind": "PR" if "pull_request" in item else "issue",
-                "snippet": snippet[:140] + ("…" if len(snippet) > 140 else ""),
-            })
-    return out
-
-
 def table(rows, head):
     if not rows:
         return "_Nothing here yet._\n"
@@ -103,13 +81,61 @@ def table(rows, head):
 
 def build():
     base = f"author:{USER} -user:{USER} is:public archived:false"
-    merged = search(f"{base} type:pr is:merged")[:LIMIT]
-    open_prs = search(f"{base} type:pr is:open")[:LIMIT]
-    issues = search(f"{base} type:issue")[:LIMIT]
+    raw_merged = search(f"{base} type:pr is:merged")
+    raw_open_prs = search(f"{base} type:pr is:open")
+    raw_issues = search(f"{base} type:issue")
 
-    thanks = []
-    for it in merged + issues:
-        thanks += thanks_for(it)
+    merged = [p for p in raw_merged if repo_of(p) not in EXCLUDE_REPOS]
+    merged.sort(key=lambda x: (x.get("pull_request") or {}).get("merged_at") or x.get("closed_at") or "", reverse=True)
+    merged = merged[:LIMIT]
+
+    open_prs = [p for p in raw_open_prs if repo_of(p) not in EXCLUDE_REPOS]
+    open_prs.sort(key=lambda x: x.get("created_at") or "", reverse=True)
+    open_prs = open_prs[:LIMIT]
+
+    issues = [i for i in raw_issues if repo_of(i) not in EXCLUDE_REPOS]
+    issues.sort(key=lambda x: x.get("created_at") or "", reverse=True)
+    issues = issues[:LIMIT]
+
+    # Gather participated & mentioned threads
+    ic = search(f"commenter:{USER} -author:{USER} is:public archived:false type:issue")
+    pc = search(f"commenter:{USER} -author:{USER} is:public archived:false type:pr")
+    im = search(f"mentions:{USER} -author:{USER} is:public archived:false type:issue")
+    pm = search(f"mentions:{USER} -author:{USER} is:public archived:false type:pr")
+
+    threads = {}
+    for it in ic:
+        r = repo_of(it)
+        if r in EXCLUDE_REPOS:
+            continue
+        threads[it["html_url"]] = {"item": it, "role": "Commented"}
+
+    for it in pc:
+        r = repo_of(it)
+        if r in EXCLUDE_REPOS:
+            continue
+        threads[it["html_url"]] = {"item": it, "role": "Commented"}
+
+    for it in im:
+        r = repo_of(it)
+        if r in EXCLUDE_REPOS:
+            continue
+        if it["html_url"] in threads:
+            threads[it["html_url"]]["role"] = "Mentioned & Commented"
+        else:
+            threads[it["html_url"]] = {"item": it, "role": "Mentioned"}
+
+    for it in pm:
+        r = repo_of(it)
+        if r in EXCLUDE_REPOS:
+            continue
+        if it["html_url"] in threads:
+            threads[it["html_url"]]["role"] = "Mentioned & Commented"
+        else:
+            threads[it["html_url"]] = {"item": it, "role": "Mentioned"}
+
+    participated_items = list(threads.values())
+    participated_items.sort(key=lambda x: x["item"]["created_at"], reverse=True)
 
     def pr_row(it, merged_flag):
         repo = repo_of(it)
@@ -121,28 +147,38 @@ def build():
     out = []
     out.append("#### Merged pull requests\n")
     out.append(table([pr_row(i, True) for i in merged], ["Project", "Stars", "Pull request", "Merged"]))
+
     out.append("#### In progress\n")
     out.append(table([pr_row(i, False) for i in open_prs], ["Project", "Stars", "Pull request", "Opened"]))
 
-    rows = []
+    p_rows = []
+    for entry in participated_items[:LIMIT]:
+        it = entry["item"]
+        repo = repo_of(it)
+        link = f"[{esc(it['title'])}]({it['html_url']}) (#{it['number']})"
+        state = "Resolved" if it["state"] == "closed" and it.get("state_reason") != "not_planned" else ("Closed" if it["state"] == "closed" else "Open")
+        p_rows.append([
+            f"[{repo}](https://github.com/{repo})",
+            f"⭐ {fmt_stars(stars(repo))}",
+            link,
+            entry["role"],
+            state,
+            date(it["created_at"])
+        ])
+    out.append("#### Participated & Mentioned\n")
+    out.append(table(p_rows, ["Project", "Stars", "Thread", "Activity", "Status", "Date"]))
+
+    i_rows = []
     for it in issues:
         repo = repo_of(it)
         if it["state"] == "closed":
             status = "Resolved" if it.get("state_reason") != "not_planned" else "Closed"
         else:
             status = "Open"
-        rows.append([f"[{repo}](https://github.com/{repo})",
-                     f"[{esc(it['title'])}]({it['html_url']}) (#{it['number']})", status, date(it["created_at"])])
+        i_rows.append([f"[{repo}](https://github.com/{repo})",
+                       f"[{esc(it['title'])}]({it['html_url']}) (#{it['number']})", status, date(it["created_at"])])
     out.append("#### Issues reported\n")
-    out.append(table(rows, ["Project", "Issue", "Status", "Opened"]))
-
-    out.append("#### Kind words from maintainers\n")
-    if thanks:
-        for t in thanks[:8]:
-            out.append(f"- **[@{t['who']}]({t['url']})** on {t['kind']} [{t['repo']}#{t['number']}]({t['url']}): “{esc(t['snippet'])}”")
-        out.append("")
-    else:
-        out.append("_Nothing here yet._\n")
+    out.append(table(i_rows, ["Project", "Issue", "Status", "Opened"]))
 
     out.append(f"<sub>Auto-generated from public GitHub activity · updated {time.strftime('%Y-%m-%d', time.gmtime())} UTC</sub>\n")
     return "\n".join(out)

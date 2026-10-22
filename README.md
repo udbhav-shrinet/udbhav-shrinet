@@ -12,7 +12,11 @@
 
 ## About
 
-I build data-intensive systems end to end: ingestion pipelines, quantitative models, and the interfaces people actually use. My work sits at the intersection of **analytics, autonomous agents, and systems engineering**, with side projects that range from whole-brain connectome simulation to macro-aware trading engines.
+Hey there! I am Udbhav. 👋
+
+I build data-intensive systems end-to-end — from high-throughput ingestion pipelines and quantitative models to autonomous AI agents and the interfaces people actually rely on.
+
+I like taking messy, complex data and turning it into fast, resilient systems that run smoothly on their own. My work sits at the intersection of **data engineering, agentic workflows, and systems simulation** — whether that means simulating a whole-brain fruit fly connectome with 130k+ neurons in WebGL, engineering macro-aware trading engines, or fixing upstream bugs across open-source agent ecosystems.
 
 ---
 
@@ -87,32 +91,46 @@ Contributions to public projects I don't own. Everything below is generated from
 |---|---|---|---|
 | [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars) | ⭐ 1.1k | [Add ds-agent-playbook to Tools Built with Polars](https://github.com/ddotta/awesome-polars/pull/643) (#643) | 2026-10-12 |
 | [davidgasquez/awesome-duckdb](https://github.com/davidgasquez/awesome-duckdb) | ⭐ 2.5k | [Add ds-agent-playbook to Libraries Powered by DuckDB](https://github.com/davidgasquez/awesome-duckdb/pull/372) (#372) | 2026-10-12 |
-| [vardhancodes/Multithreading](https://github.com/vardhancodes/Multithreading) | ⭐ 0 | [feat: professional repository overhaul with comprehensive Java concurrency curriculum, CI, tests, and documentation](https://github.com/vardhancodes/Multithreading/pull/1) (#1) | 2026-10-09 |
 
 #### In progress
 
 | Project | Stars | Pull request | Opened |
 |---|---|---|---|
-| [google-research/timesfm](https://github.com/google-research/timesfm) | ⭐ 34.7k | [fix(deps): split jax[cuda] into cpu and cuda extras to support CPU-only installs (#443)](https://github.com/google-research/timesfm/pull/539) (#539) | 2026-10-13 |
 | [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | ⭐ 11.7k | [docs: uncap scikit-learn and huggingface_hub in docs/requirements.txt](https://github.com/cleanlab/cleanlab/pull/1345) (#1345) | 2026-10-13 |
-| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | ⭐ 19k | [fix(litellm): omit default temperature to prevent failures on reasoning models](https://github.com/confident-ai/deepeval/pull/3431) (#3431) | 2026-10-09 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 61.8k | [fix(utils): align get_formatted_prompt call_type Literal with CallTypesLiteral](https://github.com/BerriAI/litellm/pull/46298) (#46298) | 2026-10-13 |
 | [567-labs/instructor](https://github.com/567-labs/instructor) | ⭐ 14k | [fix(usage): guard openai imports in usage helpers when openai is not installed](https://github.com/567-labs/instructor/pull/2796) (#2796) | 2026-10-13 |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | ⭐ 191.6k | [fix(links): support mailto: and tel: links in HTML and DOCX conversion](https://github.com/microsoft/markitdown/pull/2696) (#2696) | 2026-10-13 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tools): support plain Python type annotations in Tool.from_gradio](https://github.com/huggingface/smolagents/pull/2984) (#2984) | 2026-10-13 |
+| [google-research/timesfm](https://github.com/google-research/timesfm) | ⭐ 34.7k | [fix(deps): split jax[cuda] into cpu and cuda extras to support CPU-only installs (#443)](https://github.com/google-research/timesfm/pull/539) (#539) | 2026-10-13 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(serialization): support all numpy scalar types via generic inspection (#2961)](https://github.com/huggingface/smolagents/pull/2972) (#2972) | 2026-10-12 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tool_validation): handle tuple and list aliases in with statements (#2942)](https://github.com/huggingface/smolagents/pull/2958) (#2958) | 2026-10-11 |
+| [krzjoa/awesome-python-data-science](https://github.com/krzjoa/awesome-python-data-science) | ⭐ 3.6k | [Add ds-agent-playbook to Automated Machine Learning](https://github.com/krzjoa/awesome-python-data-science/pull/111) (#111) | 2026-10-10 |
 | [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | ⭐ 4.5k | [fix(polars): coerce=True strips whitespace before casting to numeric to match pandas](https://github.com/unionai-oss/pandera/pull/2558) (#2558) | 2026-10-09 |
+| [microsoft/autogen](https://github.com/microsoft/autogen) | ⭐ 61.5k | [fix(mcp): migrate to MCP 2.0.0 SDK and fix tool cancellation (#8014, #8265)](https://github.com/microsoft/autogen/pull/8335) (#8335) | 2026-10-09 |
+| [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | ⭐ 64.1k | [fix(data): expire cached earnings history daily to support PEAD strategies](https://github.com/virattt/ai-hedge-fund/pull/733) (#733) | 2026-10-09 |
+
+#### Participated & Mentioned
+
+| Project | Stars | Thread | Activity | Status | Date |
+|---|---|---|---|---|---|
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [BUG: open_deep_research YouTubeConverter silently drops transcripts (get_transcript removed in youtube-transcript-api 1.0)](https://github.com/huggingface/smolagents/issues/3010) (#3010) | Commented | Open | 2026-10-17 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [ENH: Add a first-class NvidiaModel for NVIDIA NIM](https://github.com/huggingface/smolagents/issues/2995) (#2995) | Commented | Open | 2026-10-15 |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.5k | [fix(git): prefix git_show diff headers with a/ and b/](https://github.com/modelcontextprotocol/servers/pull/5145) (#5145) | Mentioned | Resolved | 2026-10-13 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 61.8k | [fix(redis): keep the data node host, port and db off Redis Sentinel connections](https://github.com/BerriAI/litellm/pull/46041) (#46041) | Commented | Open | 2026-10-12 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 61.8k | [test(router): stop test_default_model_fallbacks leaking litellm.default_fallbacks](https://github.com/BerriAI/litellm/pull/46014) (#46014) | Commented | Open | 2026-10-12 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [BUG: SafeSerializer rejects NumPy string and complex scalar values](https://github.com/huggingface/smolagents/issues/2961) (#2961) | Mentioned & Commented | Resolved | 2026-10-12 |
+| [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ⭐ 24.6k | [Add a filesystem backed provider for the Skills extension](https://github.com/modelcontextprotocol/python-sdk/issues/3683) (#3683) | Commented | Open | 2026-10-11 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 61.8k | [fix(databricks): route GPT-5.4+ function-tool calls through the Responses API](https://github.com/BerriAI/litellm/pull/45952) (#45952) | Mentioned & Commented | Open | 2026-10-11 |
+| [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ⭐ 24.6k | [[v1.x] Server revalidates every tools/call with one-shot jsonschema.validate(), re-checking the schema each time](https://github.com/modelcontextprotocol/python-sdk/issues/3676) (#3676) | Commented | Open | 2026-10-11 |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.5k | [git: git_show diff headers lack git's a/ and b/ path prefixes](https://github.com/modelcontextprotocol/servers/issues/5107) (#5107) | Commented | Resolved | 2026-10-10 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [BUG: Tool.to_dict rejects valid tuple aliases in with statements as undefined names](https://github.com/huggingface/smolagents/issues/2942) (#2942) | Commented | Open | 2026-10-10 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [BUG: LocalPythonExecutor loses print output when print is passed as a callback](https://github.com/huggingface/smolagents/issues/2941) (#2941) | Commented | Open | 2026-10-10 |
 
 #### Issues reported
 
 | Project | Issue | Status | Opened |
 |---|---|---|---|
 | [tgraha09/Spotify-Music-Tracker](https://github.com/tgraha09/Spotify-Music-Tracker) | [Localhost error](https://github.com/tgraha09/Spotify-Music-Tracker/issues/1) (#1) | Resolved | 2024-08-19 |
-
-#### Kind words from maintainers
-
-- **[@davidgasquez](https://github.com/davidgasquez/awesome-duckdb/pull/372#issuecomment-6119952407)** on PR [davidgasquez/awesome-duckdb#372](https://github.com/davidgasquez/awesome-duckdb/pull/372#issuecomment-6119952407): “Thanks!”
 
 <sub>Auto-generated from public GitHub activity · updated 2026-10-22 UTC</sub>
 
