@@ -109,16 +109,16 @@ I'm a data person who likes building things end to end: the pipeline, the model,
   <img src="./github-isocalendar.svg" alt="Contribution calendar" width="100%"/>
   <br/><br/>
   
-  <!-- GitHub Stats (Includes Rank, Total Commits, PRs, Issues, and Stars) -->
+  <!-- GitHub Stats with Private Commits & Total History Enabled -->
   <a href="https://github.com/udbhav-shrinet">
-    <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10&count_private=true" alt="Udbhav's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=udbhav-shrinet&show_icons=true&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0a0c10&count_private=true&include_all_commits=true&cache_seconds=3600" alt="Udbhav's GitHub Stats" />
   </a>
 
   <br/><br/>
 
   <!-- Most Used Languages Card -->
   <a href="https://github.com/udbhav-shrinet">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udbhav-shrinet&layout=compact&theme=radical&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0a0c10" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udbhav-shrinet&layout=compact&theme=radical&hide_border=true&title_color=c084fc&text_color=94a3b8&bg_color=0a0c10&count_private=true&cache_seconds=3600" alt="Top Languages" />
   </a>
 
   <br/><br/>
