@@ -101,7 +101,7 @@ Contributions to public projects I don't own. Everything below is generated from
 | [567-labs/instructor](https://github.com/567-labs/instructor) | ⭐ 14.1k | [fix(usage): guard openai imports in usage helpers when openai is not installed](https://github.com/567-labs/instructor/pull/2796) (#2796) | 2026-10-13 |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | ⭐ 191.8k | [fix(links): support mailto: and tel: links in HTML and DOCX conversion](https://github.com/microsoft/markitdown/pull/2696) (#2696) | 2026-10-13 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tools): support plain Python type annotations in Tool.from_gradio](https://github.com/huggingface/smolagents/pull/2984) (#2984) | 2026-10-13 |
-| [google-research/timesfm](https://github.com/google-research/timesfm) | ⭐ 34.7k | [fix(deps): split jax[cuda] into cpu and cuda extras to support CPU-only installs (#443)](https://github.com/google-research/timesfm/pull/539) (#539) | 2026-10-13 |
+| [google-research/timesfm](https://github.com/google-research/timesfm) | ⭐ 34.8k | [fix(deps): split jax[cuda] into cpu and cuda extras to support CPU-only installs (#443)](https://github.com/google-research/timesfm/pull/539) (#539) | 2026-10-13 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(serialization): support all numpy scalar types via generic inspection (#2961)](https://github.com/huggingface/smolagents/pull/2972) (#2972) | 2026-10-12 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tool_validation): handle tuple and list aliases in with statements (#2942)](https://github.com/huggingface/smolagents/pull/2958) (#2958) | 2026-10-11 |
 | [krzjoa/awesome-python-data-science](https://github.com/krzjoa/awesome-python-data-science) | ⭐ 3.6k | [Add ds-agent-playbook to Automated Machine Learning](https://github.com/krzjoa/awesome-python-data-science/pull/111) (#111) | 2026-10-10 |
@@ -132,7 +132,7 @@ Contributions to public projects I don't own. Everything below is generated from
 |---|---|---|---|
 | [tgraha09/Spotify-Music-Tracker](https://github.com/tgraha09/Spotify-Music-Tracker) | [Localhost error](https://github.com/tgraha09/Spotify-Music-Tracker/issues/1) (#1) | Resolved | 2024-08-19 |
 
-<sub>Auto-generated from public GitHub activity · updated 2026-10-23 UTC</sub>
+<sub>Auto-generated from public GitHub activity · updated 2026-10-24 UTC</sub>
 
 <!-- OSS:END -->
 
