@@ -106,7 +106,7 @@ Contributions to public projects I don't own. Everything below is generated from
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tool_validation): handle tuple and list aliases in with statements (#2942)](https://github.com/huggingface/smolagents/pull/2958) (#2958) | 2026-10-11 |
 | [krzjoa/awesome-python-data-science](https://github.com/krzjoa/awesome-python-data-science) | ⭐ 3.6k | [Add ds-agent-playbook to Automated Machine Learning](https://github.com/krzjoa/awesome-python-data-science/pull/111) (#111) | 2026-10-10 |
 | [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | ⭐ 4.5k | [fix(polars): coerce=True strips whitespace before casting to numeric to match pandas](https://github.com/unionai-oss/pandera/pull/2558) (#2558) | 2026-10-09 |
-| [microsoft/autogen](https://github.com/microsoft/autogen) | ⭐ 61.5k | [fix(mcp): migrate to MCP 2.0.0 SDK and fix tool cancellation (#8014, #8265)](https://github.com/microsoft/autogen/pull/8335) (#8335) | 2026-10-09 |
+| [microsoft/autogen](https://github.com/microsoft/autogen) | ⭐ 61.6k | [fix(mcp): migrate to MCP 2.0.0 SDK and fix tool cancellation (#8014, #8265)](https://github.com/microsoft/autogen/pull/8335) (#8335) | 2026-10-09 |
 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | ⭐ 64.2k | [fix(data): expire cached earnings history daily to support PEAD strategies](https://github.com/virattt/ai-hedge-fund/pull/733) (#733) | 2026-10-09 |
 
 #### Participated & Mentioned
