@@ -99,7 +99,7 @@ Contributions to public projects I don't own. Everything below is generated from
 | [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | ⭐ 11.7k | [docs: uncap scikit-learn and huggingface_hub in docs/requirements.txt](https://github.com/cleanlab/cleanlab/pull/1345) (#1345) | 2026-10-13 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62k | [fix(utils): align get_formatted_prompt call_type Literal with CallTypesLiteral](https://github.com/BerriAI/litellm/pull/46298) (#46298) | 2026-10-13 |
 | [567-labs/instructor](https://github.com/567-labs/instructor) | ⭐ 14.1k | [fix(usage): guard openai imports in usage helpers when openai is not installed](https://github.com/567-labs/instructor/pull/2796) (#2796) | 2026-10-13 |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | ⭐ 192.1k | [fix(links): support mailto: and tel: links in HTML and DOCX conversion](https://github.com/microsoft/markitdown/pull/2696) (#2696) | 2026-10-13 |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | ⭐ 192.2k | [fix(links): support mailto: and tel: links in HTML and DOCX conversion](https://github.com/microsoft/markitdown/pull/2696) (#2696) | 2026-10-13 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tools): support plain Python type annotations in Tool.from_gradio](https://github.com/huggingface/smolagents/pull/2984) (#2984) | 2026-10-13 |
 | [google-research/timesfm](https://github.com/google-research/timesfm) | ⭐ 34.8k | [fix(deps): split jax[cuda] into cpu and cuda extras to support CPU-only installs (#443)](https://github.com/google-research/timesfm/pull/539) (#539) | 2026-10-13 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(serialization): support all numpy scalar types via generic inspection (#2961)](https://github.com/huggingface/smolagents/pull/2972) (#2972) | 2026-10-12 |
@@ -107,7 +107,7 @@ Contributions to public projects I don't own. Everything below is generated from
 | [krzjoa/awesome-python-data-science](https://github.com/krzjoa/awesome-python-data-science) | ⭐ 3.6k | [Add ds-agent-playbook to Automated Machine Learning](https://github.com/krzjoa/awesome-python-data-science/pull/111) (#111) | 2026-10-10 |
 | [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | ⭐ 4.5k | [fix(polars): coerce=True strips whitespace before casting to numeric to match pandas](https://github.com/unionai-oss/pandera/pull/2558) (#2558) | 2026-10-09 |
 | [microsoft/autogen](https://github.com/microsoft/autogen) | ⭐ 61.6k | [fix(mcp): migrate to MCP 2.0.0 SDK and fix tool cancellation (#8014, #8265)](https://github.com/microsoft/autogen/pull/8335) (#8335) | 2026-10-09 |
-| [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | ⭐ 64.2k | [fix(data): expire cached earnings history daily to support PEAD strategies](https://github.com/virattt/ai-hedge-fund/pull/733) (#733) | 2026-10-09 |
+| [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | ⭐ 64.3k | [fix(data): expire cached earnings history daily to support PEAD strategies](https://github.com/virattt/ai-hedge-fund/pull/733) (#733) | 2026-10-09 |
 
 #### Participated & Mentioned
 
