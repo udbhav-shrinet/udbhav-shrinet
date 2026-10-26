@@ -100,10 +100,10 @@ Contributions to public projects I don't own. Everything below is generated from
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62k | [fix(utils): align get_formatted_prompt call_type Literal with CallTypesLiteral](https://github.com/BerriAI/litellm/pull/46298) (#46298) | 2026-10-13 |
 | [567-labs/instructor](https://github.com/567-labs/instructor) | ⭐ 14.1k | [fix(usage): guard openai imports in usage helpers when openai is not installed](https://github.com/567-labs/instructor/pull/2796) (#2796) | 2026-10-13 |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | ⭐ 192.2k | [fix(links): support mailto: and tel: links in HTML and DOCX conversion](https://github.com/microsoft/markitdown/pull/2696) (#2696) | 2026-10-13 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tools): support plain Python type annotations in Tool.from_gradio](https://github.com/huggingface/smolagents/pull/2984) (#2984) | 2026-10-13 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [fix(tools): support plain Python type annotations in Tool.from_gradio](https://github.com/huggingface/smolagents/pull/2984) (#2984) | 2026-10-13 |
 | [google-research/timesfm](https://github.com/google-research/timesfm) | ⭐ 34.8k | [fix(deps): split jax[cuda] into cpu and cuda extras to support CPU-only installs (#443)](https://github.com/google-research/timesfm/pull/539) (#539) | 2026-10-13 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(serialization): support all numpy scalar types via generic inspection (#2961)](https://github.com/huggingface/smolagents/pull/2972) (#2972) | 2026-10-12 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [fix(tool_validation): handle tuple and list aliases in with statements (#2942)](https://github.com/huggingface/smolagents/pull/2958) (#2958) | 2026-10-11 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [fix(serialization): support all numpy scalar types via generic inspection (#2961)](https://github.com/huggingface/smolagents/pull/2972) (#2972) | 2026-10-12 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [fix(tool_validation): handle tuple and list aliases in with statements (#2942)](https://github.com/huggingface/smolagents/pull/2958) (#2958) | 2026-10-11 |
 | [krzjoa/awesome-python-data-science](https://github.com/krzjoa/awesome-python-data-science) | ⭐ 3.6k | [Add ds-agent-playbook to Automated Machine Learning](https://github.com/krzjoa/awesome-python-data-science/pull/111) (#111) | 2026-10-10 |
 | [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | ⭐ 4.5k | [fix(polars): coerce=True strips whitespace before casting to numeric to match pandas](https://github.com/unionai-oss/pandera/pull/2558) (#2558) | 2026-10-09 |
 | [microsoft/autogen](https://github.com/microsoft/autogen) | ⭐ 61.6k | [fix(mcp): migrate to MCP 2.0.0 SDK and fix tool cancellation (#8014, #8265)](https://github.com/microsoft/autogen/pull/8335) (#8335) | 2026-10-09 |
@@ -113,18 +113,18 @@ Contributions to public projects I don't own. Everything below is generated from
 
 | Project | Stars | Thread | Activity | Status | Date |
 |---|---|---|---|---|---|
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [BUG: open_deep_research YouTubeConverter silently drops transcripts (get_transcript removed in youtube-transcript-api 1.0)](https://github.com/huggingface/smolagents/issues/3010) (#3010) | Commented | Open | 2026-10-17 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [ENH: Add a first-class NvidiaModel for NVIDIA NIM](https://github.com/huggingface/smolagents/issues/2995) (#2995) | Commented | Open | 2026-10-15 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: open_deep_research YouTubeConverter silently drops transcripts (get_transcript removed in youtube-transcript-api 1.0)](https://github.com/huggingface/smolagents/issues/3010) (#3010) | Commented | Open | 2026-10-17 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [ENH: Add a first-class NvidiaModel for NVIDIA NIM](https://github.com/huggingface/smolagents/issues/2995) (#2995) | Commented | Open | 2026-10-15 |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.6k | [fix(git): prefix git_show diff headers with a/ and b/](https://github.com/modelcontextprotocol/servers/pull/5145) (#5145) | Mentioned | Resolved | 2026-10-13 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62k | [fix(redis): keep the data node host, port and db off Redis Sentinel connections](https://github.com/BerriAI/litellm/pull/46041) (#46041) | Commented | Open | 2026-10-12 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62k | [test(router): stop test_default_model_fallbacks leaking litellm.default_fallbacks](https://github.com/BerriAI/litellm/pull/46014) (#46014) | Commented | Open | 2026-10-12 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [BUG: SafeSerializer rejects NumPy string and complex scalar values](https://github.com/huggingface/smolagents/issues/2961) (#2961) | Mentioned & Commented | Resolved | 2026-10-12 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: SafeSerializer rejects NumPy string and complex scalar values](https://github.com/huggingface/smolagents/issues/2961) (#2961) | Mentioned & Commented | Resolved | 2026-10-12 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ⭐ 24.7k | [Add a filesystem backed provider for the Skills extension](https://github.com/modelcontextprotocol/python-sdk/issues/3683) (#3683) | Commented | Open | 2026-10-11 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62k | [fix(databricks): route GPT-5.4+ function-tool calls through the Responses API](https://github.com/BerriAI/litellm/pull/45952) (#45952) | Mentioned & Commented | Open | 2026-10-11 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ⭐ 24.7k | [[v1.x] Server revalidates every tools/call with one-shot jsonschema.validate(), re-checking the schema each time](https://github.com/modelcontextprotocol/python-sdk/issues/3676) (#3676) | Commented | Open | 2026-10-11 |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.6k | [git: git_show diff headers lack git's a/ and b/ path prefixes](https://github.com/modelcontextprotocol/servers/issues/5107) (#5107) | Commented | Resolved | 2026-10-10 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [BUG: Tool.to_dict rejects valid tuple aliases in with statements as undefined names](https://github.com/huggingface/smolagents/issues/2942) (#2942) | Commented | Open | 2026-10-10 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30k | [BUG: LocalPythonExecutor loses print output when print is passed as a callback](https://github.com/huggingface/smolagents/issues/2941) (#2941) | Commented | Open | 2026-10-10 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: Tool.to_dict rejects valid tuple aliases in with statements as undefined names](https://github.com/huggingface/smolagents/issues/2942) (#2942) | Commented | Open | 2026-10-10 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: LocalPythonExecutor loses print output when print is passed as a callback](https://github.com/huggingface/smolagents/issues/2941) (#2941) | Commented | Open | 2026-10-10 |
 
 #### Issues reported
 
@@ -132,7 +132,7 @@ Contributions to public projects I don't own. Everything below is generated from
 |---|---|---|---|
 | [tgraha09/Spotify-Music-Tracker](https://github.com/tgraha09/Spotify-Music-Tracker) | [Localhost error](https://github.com/tgraha09/Spotify-Music-Tracker/issues/1) (#1) | Resolved | 2024-08-19 |
 
-<sub>Auto-generated from public GitHub activity · updated 2026-10-25 UTC</sub>
+<sub>Auto-generated from public GitHub activity · updated 2026-10-26 UTC</sub>
 
 <!-- OSS:END -->
 
