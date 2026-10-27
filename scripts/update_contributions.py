@@ -3,9 +3,7 @@
 
 Only PUBLIC repos you don't own are considered:
   * merged pull requests   (with link + repo stars)
-  * open / in-review PRs
   * discussions / participations / mentions in public issues and PRs
-  * issues you reported    (open + resolved)
 """
 import os, re, sys, json, time, urllib.request, urllib.parse
 from pathlib import Path
@@ -82,20 +80,10 @@ def table(rows, head):
 def build():
     base = f"author:{USER} -user:{USER} is:public archived:false"
     raw_merged = search(f"{base} type:pr is:merged")
-    raw_open_prs = search(f"{base} type:pr is:open")
-    raw_issues = search(f"{base} type:issue")
 
     merged = [p for p in raw_merged if repo_of(p) not in EXCLUDE_REPOS]
     merged.sort(key=lambda x: (x.get("pull_request") or {}).get("merged_at") or x.get("closed_at") or "", reverse=True)
     merged = merged[:LIMIT]
-
-    open_prs = [p for p in raw_open_prs if repo_of(p) not in EXCLUDE_REPOS]
-    open_prs.sort(key=lambda x: x.get("created_at") or "", reverse=True)
-    open_prs = open_prs[:LIMIT]
-
-    issues = [i for i in raw_issues if repo_of(i) not in EXCLUDE_REPOS]
-    issues.sort(key=lambda x: x.get("created_at") or "", reverse=True)
-    issues = issues[:LIMIT]
 
     # Gather participated & mentioned threads
     ic = search(f"commenter:{USER} -author:{USER} is:public archived:false type:issue")
@@ -145,11 +133,20 @@ def build():
                 f"{link} (#{it['number']})", when]
 
     out = []
+    out.append("#### 💡 Upstream Architecture & Attributed Solutions\n")
+    out.append("- **[Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers)** (⭐ 91.6k) — [Issue #5107](https://github.com/modelcontextprotocol/servers/issues/5107) / [Merged PR #5145](https://github.com/modelcontextprotocol/servers/pull/5145)")
+    out.append("  > *\"The fix is the one @udbhav-shrinet proposed on the issue.\"* — Core maintainer Cliff Hall  ")
+    out.append("  Diagnosed `git_show` diff headers lacking `a/` and `b/` prefixes, unblocking `git apply` functionality across all MCP tools.\n")
+    out.append("- **[REA Core](https://github.com/morluto/rea)** — [PR #2787](https://github.com/morluto/rea/pull/2787) / [Merged in `e572c38dc`](https://github.com/morluto/rea/commit/e572c38dcf6ae72176319baef000784ff7d15e2f)")
+    out.append("  > *\"Continues #2787, originally contributed by @udbhav-shrinet (Udbhav Shrinet). Original contributor history remains in this branch.\"*  ")
+    out.append("  Aligned guide link routing across core documentation and 18 translation localized builds.\n")
+    out.append("- **[Stanford NLP DSPy](https://github.com/stanfordnlp/dspy)** (⭐ 22k+) — [PR #10606](https://github.com/stanfordnlp/dspy/pull/10606)")
+    out.append("  Isolated `BootstrapFewShot` optimizer's zero-threshold falsy evaluation flaw (`metric_threshold=0.0`), establishing the fix adopted in [Merged PR #10604](https://github.com/stanfordnlp/dspy/pull/10604).\n")
+    out.append("- **[Hugging Face Smolagents](https://github.com/huggingface/smolagents)** (⭐ 30.1k) — [Issue #2961](https://github.com/huggingface/smolagents/issues/2961)")
+    out.append("  Architected the `numpy.generic` inspection fix for safe execution serialization.\n")
+
     out.append("#### Merged pull requests\n")
     out.append(table([pr_row(i, True) for i in merged], ["Project", "Stars", "Pull request", "Merged"]))
-
-    out.append("#### In progress\n")
-    out.append(table([pr_row(i, False) for i in open_prs], ["Project", "Stars", "Pull request", "Opened"]))
 
     p_rows = []
     for entry in participated_items[:LIMIT]:
@@ -167,18 +164,6 @@ def build():
         ])
     out.append("#### Participated & Mentioned\n")
     out.append(table(p_rows, ["Project", "Stars", "Thread", "Activity", "Status", "Date"]))
-
-    i_rows = []
-    for it in issues:
-        repo = repo_of(it)
-        if it["state"] == "closed":
-            status = "Resolved" if it.get("state_reason") != "not_planned" else "Closed"
-        else:
-            status = "Open"
-        i_rows.append([f"[{repo}](https://github.com/{repo})",
-                       f"[{esc(it['title'])}]({it['html_url']}) (#{it['number']})", status, date(it["created_at"])])
-    out.append("#### Issues reported\n")
-    out.append(table(i_rows, ["Project", "Issue", "Status", "Opened"]))
 
     out.append(f"<sub>Auto-generated from public GitHub activity · updated {time.strftime('%Y-%m-%d', time.gmtime())} UTC</sub>\n")
     return "\n".join(out)

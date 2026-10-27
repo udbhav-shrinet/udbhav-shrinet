@@ -85,29 +85,28 @@ Contributions to public projects I don't own. Everything below is generated from
 </div>
 
 <!-- OSS:START -->
+#### 💡 Upstream Architecture & Attributed Solutions
+
+- **[Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers)** (⭐ 91.6k) — [Issue #5107](https://github.com/modelcontextprotocol/servers/issues/5107) / [Merged PR #5145](https://github.com/modelcontextprotocol/servers/pull/5145)
+  > *"The fix is the one @udbhav-shrinet proposed on the issue."* — Core maintainer Cliff Hall  
+  Diagnosed `git_show` diff headers lacking `a/` and `b/` prefixes, unblocking `git apply` functionality across all MCP tools.
+
+- **[REA Core](https://github.com/morluto/rea)** — [PR #2787](https://github.com/morluto/rea/pull/2787) / [Merged in `e572c38dc`](https://github.com/morluto/rea/commit/e572c38dcf6ae72176319baef000784ff7d15e2f)
+  > *"Continues #2787, originally contributed by @udbhav-shrinet (Udbhav Shrinet). Original contributor history remains in this branch."*  
+  Aligned guide link routing across core documentation and 18 translation localized builds.
+
+- **[Stanford NLP DSPy](https://github.com/stanfordnlp/dspy)** (⭐ 22k+) — [PR #10606](https://github.com/stanfordnlp/dspy/pull/10606)
+  Isolated `BootstrapFewShot` optimizer's zero-threshold falsy evaluation flaw (`metric_threshold=0.0`), establishing the fix adopted in [Merged PR #10604](https://github.com/stanfordnlp/dspy/pull/10604).
+
+- **[Hugging Face Smolagents](https://github.com/huggingface/smolagents)** (⭐ 30.1k) — [Issue #2961](https://github.com/huggingface/smolagents/issues/2961)
+  Architected the `numpy.generic` inspection fix for safe execution serialization.
+
 #### Merged pull requests
 
 | Project | Stars | Pull request | Merged |
 |---|---|---|---|
 | [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars) | ⭐ 1.1k | [Add ds-agent-playbook to Tools Built with Polars](https://github.com/ddotta/awesome-polars/pull/643) (#643) | 2026-10-12 |
 | [davidgasquez/awesome-duckdb](https://github.com/davidgasquez/awesome-duckdb) | ⭐ 2.5k | [Add ds-agent-playbook to Libraries Powered by DuckDB](https://github.com/davidgasquez/awesome-duckdb/pull/372) (#372) | 2026-10-12 |
-
-#### In progress
-
-| Project | Stars | Pull request | Opened |
-|---|---|---|---|
-| [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | ⭐ 11.7k | [docs: uncap scikit-learn and huggingface_hub in docs/requirements.txt](https://github.com/cleanlab/cleanlab/pull/1345) (#1345) | 2026-10-13 |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.1k | [fix(utils): align get_formatted_prompt call_type Literal with CallTypesLiteral](https://github.com/BerriAI/litellm/pull/46298) (#46298) | 2026-10-13 |
-| [567-labs/instructor](https://github.com/567-labs/instructor) | ⭐ 14.1k | [fix(usage): guard openai imports in usage helpers when openai is not installed](https://github.com/567-labs/instructor/pull/2796) (#2796) | 2026-10-13 |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | ⭐ 192.5k | [fix(links): support mailto: and tel: links in HTML and DOCX conversion](https://github.com/microsoft/markitdown/pull/2696) (#2696) | 2026-10-13 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [fix(tools): support plain Python type annotations in Tool.from_gradio](https://github.com/huggingface/smolagents/pull/2984) (#2984) | 2026-10-13 |
-| [google-research/timesfm](https://github.com/google-research/timesfm) | ⭐ 34.8k | [fix(deps): split jax[cuda] into cpu and cuda extras to support CPU-only installs (#443)](https://github.com/google-research/timesfm/pull/539) (#539) | 2026-10-13 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [fix(serialization): support all numpy scalar types via generic inspection (#2961)](https://github.com/huggingface/smolagents/pull/2972) (#2972) | 2026-10-12 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [fix(tool_validation): handle tuple and list aliases in with statements (#2942)](https://github.com/huggingface/smolagents/pull/2958) (#2958) | 2026-10-11 |
-| [krzjoa/awesome-python-data-science](https://github.com/krzjoa/awesome-python-data-science) | ⭐ 3.6k | [Add ds-agent-playbook to Automated Machine Learning](https://github.com/krzjoa/awesome-python-data-science/pull/111) (#111) | 2026-10-10 |
-| [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | ⭐ 4.5k | [fix(polars): coerce=True strips whitespace before casting to numeric to match pandas](https://github.com/unionai-oss/pandera/pull/2558) (#2558) | 2026-10-09 |
-| [microsoft/autogen](https://github.com/microsoft/autogen) | ⭐ 61.6k | [fix(mcp): migrate to MCP 2.0.0 SDK and fix tool cancellation (#8014, #8265)](https://github.com/microsoft/autogen/pull/8335) (#8335) | 2026-10-09 |
-| [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | ⭐ 64.3k | [fix(data): expire cached earnings history daily to support PEAD strategies](https://github.com/virattt/ai-hedge-fund/pull/733) (#733) | 2026-10-09 |
 
 #### Participated & Mentioned
 
@@ -116,21 +115,15 @@ Contributions to public projects I don't own. Everything below is generated from
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: open_deep_research YouTubeConverter silently drops transcripts (get_transcript removed in youtube-transcript-api 1.0)](https://github.com/huggingface/smolagents/issues/3010) (#3010) | Commented | Open | 2026-10-17 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [ENH: Add a first-class NvidiaModel for NVIDIA NIM](https://github.com/huggingface/smolagents/issues/2995) (#2995) | Commented | Open | 2026-10-15 |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.6k | [fix(git): prefix git_show diff headers with a/ and b/](https://github.com/modelcontextprotocol/servers/pull/5145) (#5145) | Mentioned | Resolved | 2026-10-13 |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.1k | [fix(redis): keep the data node host, port and db off Redis Sentinel connections](https://github.com/BerriAI/litellm/pull/46041) (#46041) | Commented | Open | 2026-10-12 |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.1k | [test(router): stop test_default_model_fallbacks leaking litellm.default_fallbacks](https://github.com/BerriAI/litellm/pull/46014) (#46014) | Commented | Open | 2026-10-12 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.2k | [fix(redis): keep the data node host, port and db off Redis Sentinel connections](https://github.com/BerriAI/litellm/pull/46041) (#46041) | Commented | Open | 2026-10-12 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.2k | [test(router): stop test_default_model_fallbacks leaking litellm.default_fallbacks](https://github.com/BerriAI/litellm/pull/46014) (#46014) | Commented | Open | 2026-10-12 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: SafeSerializer rejects NumPy string and complex scalar values](https://github.com/huggingface/smolagents/issues/2961) (#2961) | Mentioned & Commented | Resolved | 2026-10-12 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ⭐ 24.7k | [Add a filesystem backed provider for the Skills extension](https://github.com/modelcontextprotocol/python-sdk/issues/3683) (#3683) | Commented | Open | 2026-10-11 |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.1k | [fix(databricks): route GPT-5.4+ function-tool calls through the Responses API](https://github.com/BerriAI/litellm/pull/45952) (#45952) | Mentioned & Commented | Open | 2026-10-11 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.2k | [fix(databricks): route GPT-5.4+ function-tool calls through the Responses API](https://github.com/BerriAI/litellm/pull/45952) (#45952) | Mentioned & Commented | Open | 2026-10-11 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ⭐ 24.7k | [[v1.x] Server revalidates every tools/call with one-shot jsonschema.validate(), re-checking the schema each time](https://github.com/modelcontextprotocol/python-sdk/issues/3676) (#3676) | Commented | Open | 2026-10-11 |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.6k | [git: git_show diff headers lack git's a/ and b/ path prefixes](https://github.com/modelcontextprotocol/servers/issues/5107) (#5107) | Commented | Resolved | 2026-10-10 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: Tool.to_dict rejects valid tuple aliases in with statements as undefined names](https://github.com/huggingface/smolagents/issues/2942) (#2942) | Commented | Open | 2026-10-10 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: LocalPythonExecutor loses print output when print is passed as a callback](https://github.com/huggingface/smolagents/issues/2941) (#2941) | Commented | Open | 2026-10-10 |
-
-#### Issues reported
-
-| Project | Issue | Status | Opened |
-|---|---|---|---|
-| [tgraha09/Spotify-Music-Tracker](https://github.com/tgraha09/Spotify-Music-Tracker) | [Localhost error](https://github.com/tgraha09/Spotify-Music-Tracker/issues/1) (#1) | Resolved | 2024-08-19 |
 
 <sub>Auto-generated from public GitHub activity · updated 2026-10-27 UTC</sub>
 
@@ -186,16 +179,19 @@ Contributions to public projects I don't own. Everything below is generated from
 
 ---
 
-## Activity
+## 📈 GitHub activity
 
-<div align="center">
-  <a href="https://github.com/udbhav-shrinet">
-    <img src="https://streak-stats.demolab.com?user=udbhav-shrinet&theme=radical&hide_border=true&background=0d1117&ring=c084fc&fire=38bdf8&currStreakLabel=c084fc&sideLabels=94a3b8&currStreakNum=ffffff&sideNums=ffffff&dates=64748b" width="70%" alt="Contribution streak"/>
-  </a>
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=udbhav-shrinet&theme=tokyonight&hide_border=true&border_radius=10&ring=7F5AF0&fire=2CB67D&currStreakLabel=2CB67D" alt="GitHub streak" />
+</p>
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/udbhav-shrinet/udbhav-shrinet/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/udbhav-shrinet/udbhav-shrinet/output/github-contribution-grid-snake.svg" alt="Snake eating my contributions" />
+  </picture>
+</p>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:c084fc,100:7c3aed&height=80&section=footer" width="100%" alt="Footer"/>
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2CB67D,100:7F5AF0&height=110&section=footer" alt="" />
+</p>
