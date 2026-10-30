@@ -125,7 +125,7 @@ Contributions to public projects I don't own. Everything below is generated from
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: Tool.to_dict rejects valid tuple aliases in with statements as undefined names](https://github.com/huggingface/smolagents/issues/2942) (#2942) | Commented | Open | 2026-10-10 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.1k | [BUG: LocalPythonExecutor loses print output when print is passed as a callback](https://github.com/huggingface/smolagents/issues/2941) (#2941) | Commented | Open | 2026-10-10 |
 
-<sub>Auto-generated from public GitHub activity · updated 2026-10-29 UTC</sub>
+<sub>Auto-generated from public GitHub activity · updated 2026-10-30 UTC</sub>
 
 <!-- OSS:END -->
 
