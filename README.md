@@ -105,7 +105,7 @@ Contributions to public projects I don't own. Everything below is generated from
 
 | Project | Stars | Pull request | Merged |
 |---|---|---|---|
-| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | ⭐ 19.3k | [fix(litellm): omit default temperature to prevent failures on reasoning models](https://github.com/confident-ai/deepeval/pull/3431) (#3431) | 2026-11-02 |
+| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | ⭐ 19.4k | [fix(litellm): omit default temperature to prevent failures on reasoning models](https://github.com/confident-ai/deepeval/pull/3431) (#3431) | 2026-11-02 |
 | [ddotta/awesome-polars](https://github.com/ddotta/awesome-polars) | ⭐ 1.1k | [Add ds-agent-playbook to Tools Built with Polars](https://github.com/ddotta/awesome-polars/pull/643) (#643) | 2026-10-12 |
 | [davidgasquez/awesome-duckdb](https://github.com/davidgasquez/awesome-duckdb) | ⭐ 2.5k | [Add ds-agent-playbook to Libraries Powered by DuckDB](https://github.com/davidgasquez/awesome-duckdb/pull/372) (#372) | 2026-10-12 |
 
@@ -113,18 +113,18 @@ Contributions to public projects I don't own. Everything below is generated from
 
 | Project | Stars | Thread | Activity | Status | Date |
 |---|---|---|---|---|---|
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.2k | [BUG: open_deep_research YouTubeConverter silently drops transcripts (get_transcript removed in youtube-transcript-api 1.0)](https://github.com/huggingface/smolagents/issues/3010) (#3010) | Commented | Open | 2026-10-17 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.2k | [ENH: Add a first-class NvidiaModel for NVIDIA NIM](https://github.com/huggingface/smolagents/issues/2995) (#2995) | Commented | Open | 2026-10-15 |
-| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.8k | [fix(git): prefix git_show diff headers with a/ and b/](https://github.com/modelcontextprotocol/servers/pull/5145) (#5145) | Mentioned | Resolved | 2026-10-13 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.3k | [BUG: open_deep_research YouTubeConverter silently drops transcripts (get_transcript removed in youtube-transcript-api 1.0)](https://github.com/huggingface/smolagents/issues/3010) (#3010) | Commented | Open | 2026-10-17 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.3k | [ENH: Add a first-class NvidiaModel for NVIDIA NIM](https://github.com/huggingface/smolagents/issues/2995) (#2995) | Commented | Open | 2026-10-15 |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.9k | [fix(git): prefix git_show diff headers with a/ and b/](https://github.com/modelcontextprotocol/servers/pull/5145) (#5145) | Mentioned | Resolved | 2026-10-13 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.9k | [fix(redis): keep the data node host, port and db off Redis Sentinel connections](https://github.com/BerriAI/litellm/pull/46041) (#46041) | Commented | Open | 2026-10-12 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.9k | [test(router): stop test_default_model_fallbacks leaking litellm.default_fallbacks](https://github.com/BerriAI/litellm/pull/46014) (#46014) | Commented | Open | 2026-10-12 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.2k | [BUG: SafeSerializer rejects NumPy string and complex scalar values](https://github.com/huggingface/smolagents/issues/2961) (#2961) | Mentioned & Commented | Resolved | 2026-10-12 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.3k | [BUG: SafeSerializer rejects NumPy string and complex scalar values](https://github.com/huggingface/smolagents/issues/2961) (#2961) | Mentioned & Commented | Resolved | 2026-10-12 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ⭐ 24.8k | [Add a filesystem backed provider for the Skills extension](https://github.com/modelcontextprotocol/python-sdk/issues/3683) (#3683) | Commented | Open | 2026-10-11 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.9k | [fix(databricks): route GPT-5.4+ function-tool calls through the Responses API](https://github.com/BerriAI/litellm/pull/45952) (#45952) | Mentioned & Commented | Open | 2026-10-11 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ⭐ 24.8k | [[v1.x] Server revalidates every tools/call with one-shot jsonschema.validate(), re-checking the schema each time](https://github.com/modelcontextprotocol/python-sdk/issues/3676) (#3676) | Commented | Open | 2026-10-11 |
-| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.8k | [git: git_show diff headers lack git's a/ and b/ path prefixes](https://github.com/modelcontextprotocol/servers/issues/5107) (#5107) | Commented | Resolved | 2026-10-10 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.2k | [BUG: Tool.to_dict rejects valid tuple aliases in with statements as undefined names](https://github.com/huggingface/smolagents/issues/2942) (#2942) | Commented | Open | 2026-10-10 |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.2k | [BUG: LocalPythonExecutor loses print output when print is passed as a callback](https://github.com/huggingface/smolagents/issues/2941) (#2941) | Commented | Open | 2026-10-10 |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.9k | [git: git_show diff headers lack git's a/ and b/ path prefixes](https://github.com/modelcontextprotocol/servers/issues/5107) (#5107) | Commented | Resolved | 2026-10-10 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.3k | [BUG: Tool.to_dict rejects valid tuple aliases in with statements as undefined names](https://github.com/huggingface/smolagents/issues/2942) (#2942) | Commented | Open | 2026-10-10 |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.3k | [BUG: LocalPythonExecutor loses print output when print is passed as a callback](https://github.com/huggingface/smolagents/issues/2941) (#2941) | Commented | Open | 2026-10-10 |
 
 <sub>Auto-generated from public GitHub activity · updated 2026-11-07 UTC</sub>
 
