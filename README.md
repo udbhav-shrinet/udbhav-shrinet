@@ -117,7 +117,7 @@ Contributions to public projects I don't own. Everything below is generated from
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.3k | [ENH: Add a first-class NvidiaModel for NVIDIA NIM](https://github.com/huggingface/smolagents/issues/2995) (#2995) | Commented | Open | 2026-10-15 |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ⭐ 91.9k | [fix(git): prefix git_show diff headers with a/ and b/](https://github.com/modelcontextprotocol/servers/pull/5145) (#5145) | Mentioned | Resolved | 2026-10-13 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.9k | [fix(redis): keep the data node host, port and db off Redis Sentinel connections](https://github.com/BerriAI/litellm/pull/46041) (#46041) | Commented | Open | 2026-10-12 |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.9k | [test(router): stop test_default_model_fallbacks leaking litellm.default_fallbacks](https://github.com/BerriAI/litellm/pull/46014) (#46014) | Commented | Open | 2026-10-12 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.9k | [test(router): stop test_default_model_fallbacks leaking litellm.default_fallbacks](https://github.com/BerriAI/litellm/pull/46014) (#46014) | Commented | Resolved | 2026-10-12 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.3k | [BUG: SafeSerializer rejects NumPy string and complex scalar values](https://github.com/huggingface/smolagents/issues/2961) (#2961) | Mentioned & Commented | Resolved | 2026-10-12 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ⭐ 24.8k | [Add a filesystem backed provider for the Skills extension](https://github.com/modelcontextprotocol/python-sdk/issues/3683) (#3683) | Commented | Open | 2026-10-11 |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ⭐ 62.9k | [fix(databricks): route GPT-5.4+ function-tool calls through the Responses API](https://github.com/BerriAI/litellm/pull/45952) (#45952) | Mentioned & Commented | Open | 2026-10-11 |
@@ -126,7 +126,7 @@ Contributions to public projects I don't own. Everything below is generated from
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.3k | [BUG: Tool.to_dict rejects valid tuple aliases in with statements as undefined names](https://github.com/huggingface/smolagents/issues/2942) (#2942) | Commented | Open | 2026-10-10 |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 30.3k | [BUG: LocalPythonExecutor loses print output when print is passed as a callback](https://github.com/huggingface/smolagents/issues/2941) (#2941) | Commented | Open | 2026-10-10 |
 
-<sub>Auto-generated from public GitHub activity · updated 2026-11-07 UTC</sub>
+<sub>Auto-generated from public GitHub activity · updated 2026-11-08 UTC</sub>
 
 <!-- OSS:END -->
 
