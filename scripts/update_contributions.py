@@ -142,8 +142,8 @@ def build():
     out.append("  Aligned guide link routing across core documentation and 18 translation localized builds.\n")
     out.append("- **[Stanford NLP DSPy](https://github.com/stanfordnlp/dspy)** (⭐ 22k+) — [PR #10606](https://github.com/stanfordnlp/dspy/pull/10606)")
     out.append("  Isolated `BootstrapFewShot` optimizer's zero-threshold falsy evaluation flaw (`metric_threshold=0.0`), establishing the fix adopted in [Merged PR #10604](https://github.com/stanfordnlp/dspy/pull/10604).\n")
-    out.append("- **[Hugging Face Smolagents](https://github.com/huggingface/smolagents)** (⭐ 30.1k) — [Issue #2961](https://github.com/huggingface/smolagents/issues/2961)")
-    out.append("  Architected the `numpy.generic` inspection fix for safe execution serialization.\n")
+    out.append("- **[Hugging Face Smolagents](https://github.com/huggingface/smolagents)** (⭐ 30.1k) — [Issue #2961](https://github.com/huggingface/smolagents/issues/2961) / [PR #2972](https://github.com/huggingface/smolagents/pull/2972)")
+    out.append("  Architected extended-precision and NumPy generic scalar inspection for safe execution serialization.\n")
 
     out.append("#### Merged pull requests\n")
     out.append(table([pr_row(i, True) for i in merged], ["Project", "Stars", "Pull request", "Merged"]))

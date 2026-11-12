@@ -57,13 +57,13 @@ I like taking messy, complex data and turning it into fast, resilient systems th
       </p>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/udbhav-shrinet/Datara">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=udbhav-shrinet&repo=Datara&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" width="100%" alt="Datara"/>
+      <a href="https://github.com/udbhav-shrinet/ds-agent-playbook">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=udbhav-shrinet&repo=ds-agent-playbook&theme=radical&hide_border=true&title_color=c084fc&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" width="100%" alt="ds-agent-playbook"/>
       </a>
       <p align="center">
-        <b>YouTube Analytics Platform</b><br/>
-        <sub>Node.js · Express · REST APIs · Interactive dashboards</sub><br/>
-        <a href="https://github.com/udbhav-shrinet/Datara">Source</a>
+        <b>Data Science & Agent Playbook</b><br/>
+        <sub>Polars · DuckDB · Automated feature synthesis & out-of-core pipelines</sub><br/>
+        <a href="https://github.com/udbhav-shrinet/ds-agent-playbook">Source</a>
       </p>
     </td>
   </tr>
@@ -98,8 +98,8 @@ Contributions to public projects I don't own. Everything below is generated from
 - **[Stanford NLP DSPy](https://github.com/stanfordnlp/dspy)** (⭐ 22k+) — [PR #10606](https://github.com/stanfordnlp/dspy/pull/10606)
   Isolated `BootstrapFewShot` optimizer's zero-threshold falsy evaluation flaw (`metric_threshold=0.0`), establishing the fix adopted in [Merged PR #10604](https://github.com/stanfordnlp/dspy/pull/10604).
 
-- **[Hugging Face Smolagents](https://github.com/huggingface/smolagents)** (⭐ 30.1k) — [Issue #2961](https://github.com/huggingface/smolagents/issues/2961)
-  Architected the `numpy.generic` inspection fix for safe execution serialization.
+- **[Hugging Face Smolagents](https://github.com/huggingface/smolagents)** (⭐ 30.1k) — [Issue #2961](https://github.com/huggingface/smolagents/issues/2961) / [PR #2972](https://github.com/huggingface/smolagents/pull/2972)
+  Architected extended-precision and NumPy generic scalar inspection for safe execution serialization.
 
 #### Merged pull requests
 
@@ -153,6 +153,8 @@ Contributions to public projects I don't own. Everything below is generated from
       <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
       <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-Learn"/>
       <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+      <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" alt="Polars"/>
+      <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB"/>
       <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
     </td>
   </tr>
@@ -161,6 +163,7 @@ Contributions to public projects I don't own. Everything below is generated from
     <td>
       <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/>
       <img src="https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI Codex"/>
+      <img src="https://img.shields.io/badge/Model_Context_Protocol-4353FF?style=flat-square&logoColor=white" alt="MCP"/>
       <img src="https://img.shields.io/badge/Agentic_Workflows-7c3aed?style=flat-square" alt="Agentic Workflows"/>
     </td>
   </tr>
