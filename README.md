@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjY3pNLFTuF-KouYAgNVj5D-aR7Y4HR1W24eFvDDrvjg&s=10" width="400" alt="Vibe"/>
+  <img src="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F811351689107340643%2F&ved=0CBcQjRxqFwoTCMi17rrAhJgDFQAAAAAdAAAAABAi&opi=89978449" width="400" alt="Vibe"/>
 </p>
 
 <br/>
