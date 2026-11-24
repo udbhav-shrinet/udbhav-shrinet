@@ -105,6 +105,7 @@ Merged into projects I don't own. Contributed to: Google Research · Model Conte
 
 | Project | Description |
 |---|---|
+| **[Nex](https://github.com/udbhav-shrinet/Nex)** | Institutional financial terminal & quantitative ML playground: Screener-grade fundamentals, TimesFM neural forecasting, and cross-market analytics. ([Live](https://nex-terminal.vercel.app)) |
 | **[Multi-Agent-Trading-Bot](https://github.com/udbhav-shrinet/Multi-Agent-Trading-Bot)** | AlphaLens: Institutional-grade quantitative research, cross-sectional factor screening, macro regime detection, and Alpaca execution pipeline. |
 | **[Datara](https://github.com/udbhav-shrinet/Datara)** | Unified multi-product media intelligence and ingestion platform for YouTube, Sitemaps, and Reddit trends. |
 | **[Pac-Fly](https://github.com/udbhav-shrinet/Pac-Fly)** | AI-powered flight price monitoring and intelligent booking agent with real-time fare tracking and predictive analytics. |
